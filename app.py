@@ -6,7 +6,7 @@ app = Flask(__name__)
 def inicio():
   return render_template('inicio.html')
 
-@app.route('/criar_pedido)
+@app.route('/criar_pedido')
 def criar_pedido():
   return render_template('criar_pedido.html')
 
